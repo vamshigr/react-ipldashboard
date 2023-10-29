@@ -1,8 +1,8 @@
 import Loader from 'react-loader-spinner'
-import LatestMatch from '../../components/LatestMatch'
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
 import MatchCard from '../../components/MatchCard'
+import LatestMatch from '../../components/LatestMatch'
 
 export default function TeamMatches() {
   const [match, setMatch] = useState({})
