@@ -9,7 +9,7 @@ export default function LatestMatch({latest}) {
         <p>{latest.date}</p>
         <p>{latest.venue}</p>
         <p>{latest.result}</p>
-        <img src={latest.competing_team_logo} />
+        <img src={latest.competing_team_logo} alt="my"/>
       </div>
       <div>
         <p>First Innings</p>
