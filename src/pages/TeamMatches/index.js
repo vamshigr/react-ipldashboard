@@ -1,6 +1,6 @@
-import Loader from 'react-loader-spinner'
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
+import Loader from 'react-loader-spinner'
 import MatchCard from '../../components/MatchCard'
 import LatestMatch from '../../components/LatestMatch'
 
@@ -31,7 +31,7 @@ export default function TeamMatches() {
     <>
       {recentMatches.length > 0 ? (
         <div>
-          <img src={match.teamBannerUrl} />
+          <img src={match.teamBannerUrl} alt="my" />
           <LatestMatch latest={match.latestMatchDetails} />
           <ul>{matchesArray}</ul>
         </div>
