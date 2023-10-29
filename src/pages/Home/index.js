@@ -1,8 +1,8 @@
 // Write your code here
 import {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
-import TeamCard from '../../components/TeamCard'
 import Loader from 'react-loader-spinner'
+import TeamCard from '../../components/TeamCard'
 
 export default function Home() {
   const [teams, setTeams] = useState([])
