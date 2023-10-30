@@ -29,7 +29,7 @@ export default function TeamMatches() {
 
   return (
     <>
-      {recentMatches.length > 0 ? (
+      {recentMatches.length > 0 && match.latestMatchDetails ? (
         <div>
           <img src={match.teamBannerUrl} alt="my" />
           <LatestMatch latest={match.latestMatchDetails} />
